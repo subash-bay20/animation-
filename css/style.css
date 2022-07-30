@@ -1,0 +1,97 @@
+body {
+    background-color: #000;
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: red;
+    position: fixed;
+    animation-name: myanimation;
+    animation-duration: 6s;
+ animation-delay: 2s;
+}
+
+@keyframes myanimation {
+    0% {
+        background: red;
+        top: 0;
+        left:0;
+
+    }
+
+   10% {
+        background: blue;
+        top: 90px;
+        left: 0;
+        border-radius: 0;
+    }
+
+    20% {
+        background: green;
+        top: 90px;
+        left: 90px;
+        border-radius: 50%;
+    }
+
+    30% {
+        background: yellow;
+        top: 0px;
+        left: 90px;
+        border-radius: 0;
+    }
+
+     40% {
+        background: rgba(231, 10, 47, 0.986);
+        top: 0px;
+        left:180px;
+        border-radius: 50%;
+    }
+
+   50% {
+        background: rgb(111, 0, 255);
+        top:90px;
+        left: 180px;
+        border-radius: 0;
+    }
+
+     60% {
+        background: rgb(255, 166, 0);
+        top: 90px;
+        left: 270px;
+        border-radius: 50%;
+    }
+
+    70% {
+        background: rgb(22, 4, 4);
+        top: 0px;
+        left: 270px;
+        border-radius: 0;
+
+    }
+
+    80% {
+        background: rgb(226, 131, 214);
+        top: 0px;
+        left: 360px;
+        border-radius: 50%;
+
+    }
+
+    90% {
+        background: rgb(136, 255, 0);
+        top: 90px;
+        left: 360px;
+        border-radius: 0;
+    }
+
+    100% {
+        background: rgb(148, 14, 14);
+        top: 90px;
+        left: 450px;
+        border-radius: 50%;
+    }
+    
+}
